@@ -1,0 +1,14 @@
+traindata_path: './data/outdoor_data'
+valdata_path: './data/val'
+testdata_path: './data/val'
+mask_path: './data/mask'
+testoutput_path: './data/testoutput'
+
+checkpoint_path: './checkpoints'
+choose_checkpoint: 'model_epoch50_traloss0.7469908169269561_valloss0.7462070042436774.pth'
+
+batchsize: 2
+
+LR: 0.001
+momentum: 0.9
+weightDecay: 0.0001
